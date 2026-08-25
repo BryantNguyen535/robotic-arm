@@ -1,0 +1,61 @@
+# 5-DOF Robotic Arm
+
+A 5-DOF robotic arm designed, fabricated, and controlled using SolidWorks, 3D-printed components, an Arduino Uno, and five micro servos.
+
+## Project Overview
+
+The goal of this project is to design and fabricate a compact robotic arm capable of controlled movement and manipulation of lightweight objects.
+
+## Features
+
+- 5 degrees of freedom
+- 5 micro servo motors
+- Arduino Uno control
+- SolidWorks CAD design
+- 3D-printed PLA components
+- Passive shoulder support
+- Custom mechanical structure
+
+## Specifications
+
+| Parameter | Value |
+|---|---|
+| Degrees of Freedom | 5 |
+| Arm Length | ~29.5 cm |
+| Arm Mass | ~184 g |
+| Payload | ~10 g |
+| Controller | Arduino Uno |
+| Actuators | 5 micro servos |
+| Material | PLA |
+
+## Servo Configuration
+
+| Joint | Arduino Pin |
+|---|---|
+| Base | D9 |
+| Shoulder | D10 |
+| Elbow | D11 |
+| Wrist | D12 |
+| Claw | D13 |
+
+## Mechanical Design
+
+The robotic arm was designed in SolidWorks with consideration for servo mounting, mechanical clearance, structural support, and manufacturability using FDM 3D printing.
+
+A passive support was incorporated at the shoulder to reduce the torque experienced by the shoulder servo.
+
+## Electronics
+
+The arm uses an Arduino Uno to control five servo motors.
+
+## Testing
+
+Each servo was initially tested individually before integrating the complete robotic arm.
+
+## Future Improvements
+
+- Increase payload capacity
+- Improve shoulder support
+- Implement joystick control
+- Add inverse kinematics
+- Improve claw design
