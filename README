@@ -1,5 +1,7 @@
 # 5-DOF Robotic Arm
 
+![Robotic Arm](RobotArm.png)
+
 A 5-DOF robotic arm designed, fabricated, and controlled using SolidWorks, 3D-printed components, an Arduino Uno, and five micro servos.
 
 ## Project Overview
